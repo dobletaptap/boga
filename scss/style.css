@@ -1,5 +1,7 @@
 * {
   font-family: 'Roboto', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -219,5 +221,10 @@ textarea {
 .c-header__link {
   color: #FFF;
   text-decoration: none;
+}
+
+.c-button {
+  background: #E8C967;
+  padding: 5px 15px;
 }
 /*# sourceMappingURL=style.css.map */
