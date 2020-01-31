@@ -2,9 +2,10 @@
 $black: #1D1D1B;
 $white: #FFF;
 $accent-color: #E8C967;
+
 * {
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     // letter-spacing: .5px;
     box-sizing: border-box;
 }
@@ -22,3 +23,4 @@ body {
 // * ANCHOR COMPONENTS
 @import './components/header';
 @import './components/button';
+@import './components/hero';

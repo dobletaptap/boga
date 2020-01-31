@@ -1,4 +1,17 @@
 .c-button {
     background: $accent-color;
     padding: 5px 15px;
+    border: none;
+    display: block;
+    margin: 0;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+
+    &:hover {
+        background: darken($accent-color, 15%);
+    }
+
+    &--big {
+        padding: 15px 30px;
+        margin: 0 auto;
+    }
 }
