@@ -330,4 +330,27 @@ textarea {
   margin-top: 0;
   font-weight: 700;
 }
+
+.c-columns {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.c-columns__element-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.c-columns__list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.3em;
+  color: #6c6c65;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
