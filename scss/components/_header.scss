@@ -1,0 +1,21 @@
+.c-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+
+    &__list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    &__item {
+        margin-right: 24px;
+    }
+
+    &__link {
+        color: $white;
+        text-decoration: none;
+    }
+}
