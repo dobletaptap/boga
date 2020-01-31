@@ -11,6 +11,10 @@ body {
   color: #FFF;
 }
 
+section {
+  padding: 50px 0;
+}
+
 /**
  * 1. Correct font size not being inherited in all browsers.
  * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
@@ -261,7 +265,6 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 50px 0;
 }
 
 .c-hero__image {
@@ -314,5 +317,17 @@ textarea {
 
 .c-hero__input::placeholder {
   text-align: center;
+}
+
+.c-services {
+  background: #FFF;
+  color: #1D1D1B;
+}
+
+.c-services__title {
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 0;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */

@@ -16,6 +16,10 @@ body {
     color: $white;
 }
 
+section {
+    padding: 50px 0;
+}
+
 // * ANCHOR UTILS
 @import './utils/reset';
 @import './utils/wrapper';
@@ -24,3 +28,4 @@ body {
 @import './components/header';
 @import './components/button';
 @import './components/hero';
+@import './components/services';

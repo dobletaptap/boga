@@ -1,0 +1,11 @@
+.c-services {
+    background: $white;
+    color: $black;
+
+    &__title {
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 0;
+        font-weight: 700;
+    }
+}
