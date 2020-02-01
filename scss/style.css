@@ -353,4 +353,8 @@ textarea {
   color: #6c6c65;
   font-weight: bold;
 }
+
+.c-columns__item {
+  font-weight: 700;
+}
 /*# sourceMappingURL=style.css.map */

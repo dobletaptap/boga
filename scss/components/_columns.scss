@@ -18,4 +18,8 @@
         color: lighten($black, 30%);
         font-weight: bold;
     }
+
+    &__item {
+        font-weight: 700;
+    }
 }
