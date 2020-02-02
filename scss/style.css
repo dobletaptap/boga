@@ -541,6 +541,23 @@ textarea {
   width: 60%;
 }
 
+@media screen and (max-width: 540px) {
+  .c-imagefeat {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+  }
+  .c-imagefeat__image, .c-imagefeat__text-container {
+    width: 100%;
+  }
+  .c-imagefeat__text {
+    width: 100%;
+  }
+}
+
 .c-listing {
   display: -webkit-box;
   display: -ms-flexbox;
