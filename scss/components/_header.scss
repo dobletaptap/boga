@@ -27,6 +27,7 @@
     &__burger {
         display: none;
         position: fixed;
+        top: 5px;
         right: 5px;
         background: $accent-color;
         color: $black;
@@ -71,6 +72,8 @@
             display: flex;
         }
 
-        
+        button {
+            display: none;
+        }
     }
 }

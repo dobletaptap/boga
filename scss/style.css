@@ -267,6 +267,7 @@ textarea {
 .c-header__burger {
   display: none;
   position: fixed;
+  top: 5px;
   right: 5px;
   background: #E8C967;
   color: #1D1D1B;
@@ -321,6 +322,9 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .c-header button {
+    display: none;
   }
 }
 
