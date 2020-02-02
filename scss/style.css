@@ -528,6 +528,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
+  padding: 0;
 }
 
 .c-listing__item {
@@ -542,6 +543,19 @@ textarea {
 
 .c-listing__item--last::after {
   content: none;
+}
+
+@media screen and (max-width: 540px) {
+  .c-listing__list {
+    display: initial;
+    text-align: center;
+  }
+  .c-listing__item {
+    margin: 10px 0;
+  }
+  .c-listing__item::after {
+    content: none;
+  }
 }
 
 .c-footer {

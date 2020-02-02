@@ -5,6 +5,7 @@
     &__list {
         display: flex;
         list-style: none;
+        padding: 0;
     }
 
     &__item {
@@ -17,6 +18,20 @@
         }
         
         &--last {
+            &::after {
+                content: none;
+            }
+        }
+    }
+
+    @include iphone-8 {
+        &__list {
+            display: initial;
+            text-align: center;
+        }
+
+        &__item {
+            margin: 10px 0;
             &::after {
                 content: none;
             }
