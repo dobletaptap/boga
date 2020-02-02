@@ -3,23 +3,6 @@ $black: #1D1D1B;
 $white: #FFF;
 $accent-color: #E8C967;
 
-* {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    // letter-spacing: .5px;
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    background: $black;
-    color: $white;
-}
-
-section {
-    padding: 50px 0;
-}
-
 // * ANCHOR Responsive Design
 @mixin ipad {
     @media screen and (max-width: 768px) {
@@ -44,6 +27,28 @@ section {
         @content;
     }
 }
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    // letter-spacing: .5px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: $black;
+    color: $white;
+}
+
+section {
+    padding: 50px 0;
+    @include iphone-8 {
+        padding: 15px 0;
+    }
+}
+
+
 
 // * ANCHOR UTILS
 @import './utils/reset';
