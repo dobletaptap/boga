@@ -340,6 +340,12 @@ textarea {
   font-weight: 700;
 }
 
+@media screen and (max-width: 540px) {
+  .c-services {
+    font-size: 12px;
+  }
+}
+
 .c-columns {
   display: -ms-grid;
   display: grid;

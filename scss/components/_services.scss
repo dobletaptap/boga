@@ -8,4 +8,8 @@
         margin-top: 0;
         font-weight: 700;
     }
+
+    @include iphone-8 {
+        font-size: 12px;
+    }
 }
