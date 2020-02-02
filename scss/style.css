@@ -238,6 +238,38 @@ textarea {
   color: #E8C967;
 }
 
+@media screen and (max-width: 540px) {
+  .c-header {
+    position: fixed;
+  }
+  .c-header__nav {
+    position: fixed;
+    background: #1D1D1B;
+    top: 0;
+    width: 50vw;
+    height: 100vh;
+    right: -50vw;
+    font-size: 18px;
+  }
+  .c-header__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+  }
+  .c-header__item {
+    margin: 20px 0;
+    text-align: center;
+  }
+}
+
 .c-button {
   background: #E8C967;
   padding: 5px 15px;
