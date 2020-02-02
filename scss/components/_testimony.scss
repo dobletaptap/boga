@@ -17,4 +17,9 @@
     &__author {
         color: rgba($white, .7);
     }
+
+    @include iphone-8 {
+        width: 90%;
+        font-size: 12px;
+    }
 }

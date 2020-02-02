@@ -505,6 +505,13 @@ textarea {
   color: rgba(255, 255, 255, 0.7);
 }
 
+@media screen and (max-width: 540px) {
+  .c-testimony {
+    width: 90%;
+    font-size: 12px;
+  }
+}
+
 .c-imagefeat {
   display: -webkit-box;
   display: -ms-flexbox;
