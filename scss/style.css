@@ -613,6 +613,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   min-height: 150px;
+  padding: 15px 0;
 }
 
 .c-footer__image {
@@ -628,5 +629,30 @@ textarea {
 
 .c-footer__link:hover {
   color: #E8C967;
+}
+
+@media screen and (max-width: 540px) {
+  .c-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .c-footer__image {
+    width: 100px;
+  }
+  .c-footer__contact-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .c-footer__link {
+    margin: 5px 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
