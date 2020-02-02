@@ -37,4 +37,11 @@
             text-align: center;
         }
     }
+
+    @include iphone-8 {
+        font-size: 12px;
+        &__image {
+            width: 250px;
+        }
+    }
 }

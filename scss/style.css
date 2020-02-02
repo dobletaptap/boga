@@ -319,6 +319,15 @@ textarea {
   text-align: center;
 }
 
+@media screen and (max-width: 540px) {
+  .c-hero {
+    font-size: 12px;
+  }
+  .c-hero__image {
+    width: 250px;
+  }
+}
+
 .c-services {
   background: #FFF;
   color: #1D1D1B;
