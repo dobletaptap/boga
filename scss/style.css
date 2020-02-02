@@ -483,4 +483,34 @@ textarea {
   color: rgba(255, 255, 255, 0.3);
   width: 60%;
 }
+
+.c-listing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.c-listing__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.c-listing__item {
+  margin-right: 5px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.c-listing__item::after {
+  content: '-';
+  margin-left: 5px;
+}
+
+.c-listing__item--last::after {
+  content: none;
+}
 /*# sourceMappingURL=style.css.map */

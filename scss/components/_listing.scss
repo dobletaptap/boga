@@ -1,0 +1,26 @@
+.c-listing {
+    display: flex;
+    justify-content: center;
+
+    &__list {
+        display: flex;
+        list-style: none;
+    }
+
+    &__item {
+        margin-right: 5px;
+        color: rgba($white, .3);
+
+        &::after {
+            content: '-';
+            margin-left: 5px;
+        }
+        
+        &--last {
+            &::after {
+                content: none;
+            }
+        }
+    }
+}
+
