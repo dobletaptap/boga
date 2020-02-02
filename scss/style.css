@@ -440,6 +440,20 @@ textarea {
   font-size: 2em;
 }
 
+@media screen and (max-width: 540px) {
+  .c-textfeat {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+  }
+  .c-textfeat__main, .c-textfeat__secondary {
+    width: 100%;
+  }
+}
+
 .c-air--picture {
   padding: 0;
   height: 600px;
