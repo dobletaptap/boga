@@ -1,0 +1,23 @@
+.c-imagefeat {
+    // border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__image {
+        width: 48%;
+    }
+
+    &__text-container {
+        width: 45%;
+    }
+
+    &__title {
+        font-size: 2.3em;
+    }
+
+    &__text {
+        color: rgba($white, .3);
+        width: 60%;  
+    } 
+}

@@ -440,4 +440,33 @@ textarea {
 .c-testimony__author {
   color: rgba(255, 255, 255, 0.7);
 }
+
+.c-imagefeat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-imagefeat__image {
+  width: 48%;
+}
+
+.c-imagefeat__text-container {
+  width: 45%;
+}
+
+.c-imagefeat__title {
+  font-size: 2.3em;
+}
+
+.c-imagefeat__text {
+  color: rgba(255, 255, 255, 0.3);
+  width: 60%;
+}
 /*# sourceMappingURL=style.css.map */
