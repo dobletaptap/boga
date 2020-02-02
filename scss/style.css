@@ -513,4 +513,32 @@ textarea {
 .c-listing__item--last::after {
   content: none;
 }
+
+.c-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 150px;
+}
+
+.c-footer__image {
+  width: 200px;
+}
+
+.c-footer__link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.c-footer__link:hover {
+  color: #E8C967;
+}
 /*# sourceMappingURL=style.css.map */

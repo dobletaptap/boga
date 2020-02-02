@@ -1,0 +1,20 @@
+.c-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 150px;
+    
+    &__image {
+        width: 200px;
+    } 
+
+    &__link {
+        color: rgba($white, .6);
+        font-size: 1.2em;
+        text-decoration: none;
+        margin-right: 25px;
+        &:hover {
+            color: $accent-color;
+        }
+    }
+}
