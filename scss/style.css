@@ -478,6 +478,12 @@ textarea {
      object-position: center;
 }
 
+@media screen and (max-width: 540px) {
+  .c-air--picture {
+    height: 300px;
+  }
+}
+
 .c-testimony {
   width: 620px;
   margin: 0 auto;
