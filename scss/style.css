@@ -401,6 +401,16 @@ textarea {
   height: 600px;
 }
 
+.c-air--testimony {
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .c-air__image {
   width: 100%;
   height: 100%;
@@ -408,5 +418,26 @@ textarea {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.c-testimony {
+  width: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.c-testimony__image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.c-testimony__text {
+  font-size: 1.5em;
+}
+
+.c-testimony__author {
+  color: rgba(255, 255, 255, 0.7);
 }
 /*# sourceMappingURL=style.css.map */
