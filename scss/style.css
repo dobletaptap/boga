@@ -339,10 +339,24 @@ textarea {
   justify-items: center;
 }
 
+.c-columns--three {
+  -ms-grid-columns: (24%)[3];
+      grid-template-columns: repeat(3, 24%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
 .c-columns__element-title {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
+}
+
+.c-columns__element-text {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .c-columns__list {
